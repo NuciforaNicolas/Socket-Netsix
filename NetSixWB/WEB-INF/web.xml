@@ -1,0 +1,12 @@
+<!-- web.xml -->
+
+<web-app>
+    <servlet>
+        <servlet-class>NetSixClient</servlet-class>
+        <servlet-name>NetSixClient</servlet-name>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NetSixClient</servlet-name>
+        <url-pattern>/NetSix</url-pattern>
+    </servlet-mapping>
+</web-app>
